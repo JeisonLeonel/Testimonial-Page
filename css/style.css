@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: #FAFAF9;
+}
+.page {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.right-side{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.right-side .img-star{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5C044;
+    margin: 20px;
+    border-radius: 20px;
+}
