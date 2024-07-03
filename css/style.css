@@ -1,20 +1,16 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100%;
     width: 100%;
     margin: 0px;
     background-color: #FAFAF9;
+    font-family: Sora;
 }
 .page {
     display: grid;
     grid-template-columns: 50% 50%;
 }
 .right-side{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    margin-left: 55px;
 }
 .right-side .img-star{
     width: 45px;
@@ -23,6 +19,31 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #F5C044;
-    margin: 20px;
+    margin-top: 7rem;
     border-radius: 20px;
+}
+.right-side .text1{
+    width: 550px;
+}
+.right-side .text1 .title{
+    font-size: 36px;
+    font-weight: bold;
+}
+.right-side .text1 .paragraph{
+    font-size: 20px;
+    line-height: 1.7;
+    color: #52525A;
+    font-weight: 400;
+}
+.right-side .list{
+font-size: 14px;
+}
+.right-side .list p{
+    display: flex;
+    align-items: center; 
+    color: #52525A;
+    font-weight: 400;
+}
+.right-side .list img{
+    margin-right: 10px;
 }
