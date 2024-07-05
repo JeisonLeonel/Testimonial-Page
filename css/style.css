@@ -1,3 +1,4 @@
+/* Estilo general para el page*/
 body {
     height: 100%;
     width: 100%;
@@ -5,10 +6,12 @@ body {
     background-color: #FAFAF9;
     font-family: Sora;
 }
+/*Se utiliza grid para dividir las dos zonas*/
 .page {
     display: grid;
     grid-template-columns: 50% 50%;
 }
+/*Estilo para la zona derecha*/
 .right-side{
     margin-left: 55px;
 }
@@ -19,8 +22,8 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #F5C044;
-    margin-top: 7rem;
-    border-radius: 20px;
+    margin-top: 8.5rem;
+    border-radius: 25px;
 }
 .right-side .text1{
     width: 550px;
@@ -28,15 +31,19 @@ body {
 .right-side .text1 .title{
     font-size: 36px;
     font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 18px;
 }
 .right-side .text1 .paragraph{
     font-size: 20px;
     line-height: 1.7;
     color: #52525A;
     font-weight: 400;
+    margin-top: 0px;
 }
 .right-side .list{
 font-size: 14px;
+margin-top: 45px;
 }
 .right-side .list p{
     display: flex;
@@ -46,4 +53,67 @@ font-size: 14px;
 }
 .right-side .list img{
     margin-right: 10px;
+}
+/*Estilo para zona izquierda*/
+.left-side .card1 {
+    background-color: #FFFFFF;
+    margin-top: 9rem ;
+    height: 165px;
+    width: 360px;
+    padding-top: 30px;
+    margin-left: 15rem;
+    border-radius: 15px;
+}
+.left-side .card1 .imagenes1{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.left-side .card1 .imagenes1 .google{
+    height: 30px;
+    margin-right: 10px;
+}
+.left-side .card1 .Card_Text1{
+    margin-left: 40px;
+    width: 250px;
+    font-size: 16px;
+}
+.left-side .card1 .Card_Text1 .name1{
+    color: #18181B;
+    font-weight: bold;
+}
+.left-side .card1 .Card_Text1 .review1{
+    color: #52525A;
+}
+.left-side .card2{
+    background-color: #FFFFFF;
+    height: 165px;
+    width: 380px;
+    padding-top: 30px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.left-side .card2 .imagenes2{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.left-side .card2 .imagenes2 .meta{
+    height: 30px;
+    margin-right: 10px;
+}
+.left-side .card2 .imagenes2 .GroupStars2{
+    margin-top: 5px;
+}
+.left-side .card2 .Card_Text2{
+    margin-left: 40px;
+    width: 280px;
+    font-size: 16px;
+}
+.left-side .card2 .Card_Text2 .name2{
+    color: #18181B;
+    font-weight: bold;
+}
+.left-side .card2 .Card_Text2 .review2{
+    color: #52525A;
 }
